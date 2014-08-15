@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Prime No</title>
+<script language="javascript">
+function isPrime(n) {
+
+   // If n is less than 2 or not an integer then by definition cannot be prime.
+   if (n < 2) { alert("Not Prime"); return false}
+   if (n != Math.round(n)) { alert("Not Prime"); return false}
+
+   // Now assume that n is prime, we will try to prove that it is not.
+   var isPrime = true;
+
+   // Now check every whole number from 2 to the square root of n. If any of these divides n exactly, n cannot be prime.
+   for (var i = 2; i <= Math.sqrt(n); i++) {
+      if (n % i == 0) { alert("Not Prime"); isPrime = false}
+   }
+
+   // Finally return whether n is prime or not.
+	alert("Prime");   
+	return isPrime;
+
+} 
+</script>
+</head>
+<body>
+<h1>JAVASCRIPT PROGRAM TO Check Primality Of No.</h1><br>
+<form name="frm">
+ENTER NO <input type="text"name="no"><br><br>
+<input type="submit"value="Check"onclick="isPrime(frm.no.value)">
+</form>
+</body>
+</html>

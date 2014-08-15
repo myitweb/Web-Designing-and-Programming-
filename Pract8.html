@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>factorial</title>
+<script language="javascript">
+function fact(n)
+{
+var x=1;
+while(n)
+{
+x=x*n;
+n--;
+}
+alert("factorial of no = "+x);
+}
+</script>
+</head>
+<body>
+<h1>JAVASCRIPT PROGRAM TO FIND FACTORIAL OF NO</h1><br>
+<form name="frm">
+ENTER NO <input type="text"name="no"><br><br>
+<input type="submit"value="calculate factorial"onclick="fact(frm.no.value)">
+</form>
+</body>
+</html>

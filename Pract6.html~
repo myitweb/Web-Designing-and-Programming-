@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>form</title>
+</head>
+<center>
+<body bgcolor="pink"text="blue">
+<h1><b><i><u>Employee Information</u></b></i></h1>
+<h3><i><u>Persnol Information</u></i></h3>
+<h3><label for="name">NAME</label>
+<input type="text"size="30"><br>
+<label for="DOB">DOB&nbsp</label>
+<input type="text"size="30"><br>
+<label for="email">E-mail&nbsp</label>
+<input type="text"size="30"><br>
+<label for="password">PASSWORD</label>
+<input type="password"size="30"><br>
+<label for="ADDRESS">ADDRESS</label>
+<textarea name="Description"rows="3"cols="40">
+</textarea><br>
+GENDER<input type="radio"name="Gender"value="male">MALE
+<input type="radio"name="Gender"value="female">FEMALE
+<u>select Your Field<select name="field">
+<option value="a">SELECT</option>
+<option value="b">SOFTWARE</option>
+<option value="c">HARDWARE</option>
+<option value="d">TELECOM</option>
+<option value="e">PHARMACY</option>
+<option value="f">BANKING</option>
+</select><br>
+<u>select years of experience you have</u><br>
+<input type="checkbox">One<br>
+<input type="checkbox"name="experience"value="exp">Two<br>
+<input type="checkbox"name="experience"value="exp">Three<br>
+<input type="checkbox"name="experience"value="exp">NONE<br>
+<input type="submit" value="submit"> 
+<input type="reset" value="reset">
+</center>
+</h3>
+</body>
+</html>
+
+
+
+
+
+
+

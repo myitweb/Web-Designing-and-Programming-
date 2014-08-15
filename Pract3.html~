@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>image mapping</title>
+</head>
+</body>
+<br /><br />
+<img src="books.jpg" alt="Bsc IT Mumbai University Books" height="250" width="500" usemap="#Books"title="Select Semester" />
+
+<map name="Books">
+<area coords="8,186,111,204" href="http://myitweb.weebly.com/first-year.html#Bsc It Semester 1 Books" alt="Semester1" shape="rect" title="Sem 1">
+
+<area coords="127, 188, 242, 205 " href="http://myitweb.weebly.com/first-year.html#Bsc It Semester 2 Books" alt="Semester2" shape="rect" title="Sem 2">
+
+<area coords="6,210,115, 229" href="http://myitweb.weebly.com/second-year.html#Bsc It Semester 3 Books" alt="Semester3"shape="rect" title="Sem 3">
+
+
+<area coords="127, 209, 233, 225" href="http://myitweb.weebly.com/second-year.html#Bsc It Semester 4 Books" alt="Semester4" shape="rect" title="Sem 4">
+
+
+<area coords="6, 229, 113, 243" href="http://myitweb.weebly.com/third-year.html#Bsc It Books Semester 5" alt="Semester5" shape="rect" title="Sem 5">
+
+
+<area coords="128, 229, 237, 244" href="http://myitweb.weebly.com/third-year.html#Bsc It Semester 6 Books" alt="Semester6"  shape="rect" title="Sem 6">
+</map>
+
+<br /><br />
+
+<p>Note : Keep books.jpg in same folder as of this file.</p>
+</body>
+</html>

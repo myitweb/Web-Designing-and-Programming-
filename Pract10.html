@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+<TITLE>VALIDATION OF TEXT</TITLE>
+<script language="javascript">
+function valid(v1,v2,v3,v4)
+{
+if(v1==""||v2==""||v3==""||v4=="")
+{
+alert("fill  the all fields")
+}
+}
+function pass(p)
+{
+if(p.length<10)
+{
+alert("password should contain minimum 10 charecters");
+}
+}
+</script>
+</HEAD>.
+<body>
+<H1><B><center>VALIDATION OF TEXT</center></B></H1><BR>
+<form name="frm">
+first name<input type="text"name="f1"><br><br>
+lastname<input type="text"name="f2"><br><br>
+e-mail<input type="text"name="f3"><br><br>
+password<input type="password"name="f4"onchange="pass(frm.f4.value)"><br><br>
+<input type="submit"value="submit"onclick="valid(frm.f1.value,frm.f2.value,frm.f3.value,frm.f4.value)">
+<input type="reset"value="reset">
+</form>
+</body>
+</html>
